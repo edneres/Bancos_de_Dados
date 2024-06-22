@@ -1,2 +1,2 @@
 # Bancos_de_Dados
-Meus projetos de Análise de Dados em Python.
+Meus projetos de Análise de Dados em Python e em SQL.
