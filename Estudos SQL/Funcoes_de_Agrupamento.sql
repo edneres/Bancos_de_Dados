@@ -7,7 +7,6 @@
 
 --DROP TABLE Vendas
 
-/*
 CREATE TABLE Vendas
 (
   id_venda INT,	
@@ -35,8 +34,7 @@ INSERT INTO Vendas(id_venda, item, valor_unit, quantidade, data)
         (6, 'KitKat', 4, 6, '20/09/24'),
         (2, 'Pão', 1, 10, '15/08/24'),
         (5, 'Cenoura', 1.94, 2, '25/09/24'),
-        (6, 'Biscoito', 2.3, 3, '20/09/24');
-*/        
+        (6, 'Biscoito', 2.3, 3, '20/09/24');       
 
 -- Total de itens comprados em uma mesma data
 SELECT COUNT(quantidade) AS quantidade_itens, data
