@@ -4,6 +4,47 @@
 -- Teresina, Piauí. 22/06/2024                                   --
 -------------------------------------------------------------------
 
+/*
+          // FUNÇÕES DE AGREGAÇÃO //
+
+-- SUM()
+  -- Calcula a soma dos valores em uma coluna.
+
+-- AVG() 
+  -- Calcula a média dos valores em uma coluna.
+
+-- COUNT() 
+  -- Conta o número de linhas em um conjunto de resultados 
+     ou o número de valores não nulos em uma coluna;
+  -- COUNT(*) para valores nulos também.
+
+-- MIN() 
+  -- Retorna o menor valor em uma coluna.
+
+-- MAX() 
+  -- Retorna o maior valor em uma coluna.
+
+          // CLÁUSULAS //
+
+-- GROUP BY()
+  -- Operações matemáticas com agregações por grupos.
+
+-- GROUP_CONCAT()
+  -- Concatena os valores de uma coluna em uma única string, 
+     separada por um delimitador específico.
+
+-- STDDEV(), VAR_POP(), VAR_SAMP()
+  -- Calculam o desvio padrão e a variância populacional e amostral, respectivamente.
+
+-- ORDER BY()
+  -- Ordena os resultados de uma consulta SQL em ordem ascendente (ASC) ou descendente (DESC), 
+     com base nos valores de uma ou mais colunas.
+
+-- HAVING ()
+  -- Filtra registros após a aplicação das funções de agregação (como SUM, COUNT, AVG, etc.).
+  -- Semelhante à cláusula WHERE, mas WHERE não pode ser usada com funções de agregação, 
+     enquanto HAVING pode.
+*/
 
 --DROP TABLE Vendas
 
